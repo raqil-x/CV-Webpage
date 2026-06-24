@@ -205,3 +205,20 @@ display:none;
 }
 
 }
+
+.floating-cv {
+    position: fixed;
+    right: 20px;
+    top: 100px;
+    background: #00ffff;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 999;
+}
+
+.floating-cv:hover {
+    transform: scale(1.05);
+}
